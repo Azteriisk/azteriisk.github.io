@@ -4,17 +4,25 @@ body {
 
 h1, h2 {
     color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caption {
+    color: white;
 }
 
 button {
+    color: '';
     display: grid;
     border-radius: 7px;
+    transition: color 200ms ease-in-out;
 }
 
 #container {
     position: fixed;
     display: grid;
     border-color: red;
+    border-width: 2px;
     width: 200px;
     height: 400px;
 }
