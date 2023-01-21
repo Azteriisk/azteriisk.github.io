@@ -2,10 +2,15 @@ body {
     background-color: rgb(123, 96, 130);
 }
 
+h1, h2 {
+    color: seashell;
+}
+
 button {
     display: block;
     position: absolute;
     left: 50%;
     top: 50%;
     width: 150px;
+    border-radius: 6px;
 }
