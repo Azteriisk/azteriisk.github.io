@@ -1,10 +1,11 @@
-const donateButton = document.getElementById('donate');
-const unDonateButton = document.getElementById('undonate');
-const tracker = document.getElementById('container');
+let donateButton = document.getElementById('donate');
+let unDonateButton = document.getElementById('undonate');
+let tracker = document.getElementById('container');
 let i = 0;
 
-donateButton.addEventListener('click', donate);
-
-const donate = function(tracker){
-    tracker.innerHTML = 'i++'
+donate = function(){
+    donateButton.style.color = 'red'
+    tracker.innerHTML = '2';
 }
+
+donateButton.onclick = 'donate';
