@@ -5,7 +5,6 @@ let i = 0;
 
 donate = function(){
     donateButton.style.color = 'red'
-    donateButton.style.transition = ''
     tracker.innerHTML = '2';
 }
 
