@@ -1,11 +1,12 @@
-let donateButton = document.getElementById('donate');
-let unDonateButton = document.getElementById('undonate');
-let tracker = document.getElementById('container');
+var donateButton = document.getElementById("donate");
+var unDonateButton = document.getElementById("undonate");
+var tracker = document.getElementById("container");
 let i = 0;
 
 donate = function(){
     donateButton.style.color = 'red'
+    donateButton.style.transition = ''
     tracker.innerHTML = '2';
 }
 
-donateButton.onclick = 'donate';
+donateButton.target.onclick = 'donate';
