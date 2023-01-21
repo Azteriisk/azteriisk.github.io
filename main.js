@@ -8,4 +8,4 @@ donate = function(){
     tracker.innerHTML = '2';
 }
 
-donateButton.target.onclick = 'donate';
+donateButton.onclick = 'donate';
