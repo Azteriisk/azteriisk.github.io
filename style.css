@@ -7,10 +7,14 @@ h1, h2 {
 }
 
 button {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    border-radius: 6px;
+    display: grid;
+    border-radius: 7px;
+}
+
+#container {
+    position: fixed;
+    display: grid;
+    border-color: red;
+    width: 200px;
+    height: 400px;
 }
