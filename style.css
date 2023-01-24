@@ -12,9 +12,6 @@ h1, h2 {
 }
 
 button {
-    color: '';
-    display: grid;
-    border-radius: 7px;
     transition: color 200ms ease-in-out;
 }
 
@@ -25,4 +22,5 @@ button {
     border-width: 2px;
     width: 200px;
     height: 400px;
+    z-index: 2;
 }
