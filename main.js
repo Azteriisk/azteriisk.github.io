@@ -14,6 +14,6 @@ undonate = function(){
     tracker.innerHTML = i--;
 }
 
-donateButton.addEventListener('click', donate());
+donateButton.addEventListener("click", donate);
 
-unDonateButton.addEventListener('click', donate());
+unDonateButton.addEventListener("click", undonate);
