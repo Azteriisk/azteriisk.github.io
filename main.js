@@ -1,7 +1,7 @@
 
-var donateButton = document.getElementById("donate");
-var unDonateButton = document.getElementById("undonate");
-var tracker = document.getElementById("container");
+const donateButton = document.getElementById("donate");
+const unDonateButton = document.getElementById("undonate");
+const tracker = document.getElementById("container");
 let i = 0;
 
 donate = function(){
