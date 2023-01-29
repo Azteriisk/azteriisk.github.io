@@ -1,8 +1,9 @@
-
 const donateButton = document.getElementById("donate");
 const unDonateButton = document.getElementById("undonate");
 const tracker = document.getElementById("container");
-let i = 0;
+var i = 0;
+
+tracker.innerHTML = i;
 
 donate = function(){
     donateButton.style.backgroundColor = 'red';
@@ -14,6 +15,6 @@ undonate = function(){
     tracker.innerHTML = i--;
 }
 
-donateButton.addEventListener("click", donate);
+donateButton.onclick = donate;
 
-unDonateButton.addEventListener("click", undonate);
+unDonateButton.onclick = undonate;

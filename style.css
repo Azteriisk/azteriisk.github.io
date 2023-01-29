@@ -1,5 +1,8 @@
 body {
     background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1, h2 {
@@ -13,15 +16,18 @@ h1, h2 {
 
 button {
     transition: color 200ms ease-in-out;
+    margin-bottom: 3px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 3px;
 }
 
 #container {
-    position: fixed;
-    display: grid;
-    border-color: red;
-    border-width: 2px;
-    width: 200px;
-    height: 400px;
-    z-index: 2;
-    color: honeydew;
+    color: white;
+    border-style: dashed;
+    border-radius: 6px;
+    border-color: coral;
+    font-size: 2em;
+    padding: 20px;
+    margin: 30px;
 }
