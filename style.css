@@ -59,13 +59,15 @@ a:hover {
 }
 
 form {
-    display: flex;
-    padding: 3px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 10%;
 }
 
 label {
     color: white;
     margin: 4px;
+}
+
+input {
+    margin: 2px;
 }
