@@ -39,5 +39,6 @@ button {
     padding: 20px 50px;
     margin: 0 auto;
     max-width: 800px;
-    min-width: 125px
+    min-width: 125px;
+    user-select: none;
 }
