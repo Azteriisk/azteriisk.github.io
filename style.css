@@ -47,6 +47,15 @@ a {
     text-decoration: none;
     color: white;
     margin-top: 10%;
+    transition: color 100ms ease-in;
+    transition: text-decoration 100ms ease-in;
+}
+
+a:hover {
+    color:lightgray;
+    text-decoration: underline;
+    transition: color 100ms ease-in;
+    transition: text-decoration 100ms ease-in;
 }
 
 form {
