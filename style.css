@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    transition: background-color 200ms ease-in-out;
 }
 
 h1, h2 {

@@ -1,6 +1,7 @@
 const donateButton = document.getElementById("donate");
 const unDonateButton = document.getElementById("undonate");
 const tracker = document.getElementById("container");
+const body = document.querySelector("body");
 var i = 0;
 
 tracker.innerHTML = i;
@@ -22,10 +23,19 @@ undonate = function(){
 }
 
 reset = function() {
+    var r = Math.floor(Math.random() * 255)+ 1
+    var g = Math.floor(Math.random() * 255)+ 1
+    var b = Math.floor(Math.random() * 255)+ 1
+    console.log("R = " + r + " G = " + g + " B = " + b);
+    body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
     donateButton.style.backgroundColor = '';
     donateButton.style.color = '';
     unDonateButton.style.backgroundColor = '';
     unDonateButton.style.color = '';
+}
+
+randomColor = function() {
+
 }
 
 donateButton.onclick = donate;
