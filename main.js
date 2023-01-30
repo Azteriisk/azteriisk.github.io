@@ -22,11 +22,11 @@ undonate = function(){
     tracker.innerHTML = --i;
 }
 
-reset = function() {
+randomColor = function() {
     var r = Math.floor(Math.random() * 255)+ 1
     var g = Math.floor(Math.random() * 255)+ 1
     var b = Math.floor(Math.random() * 255)+ 1
-    console.log("R = " + r + " G = " + g + " B = " + b);
+    console.log("body.style.backgroundColor = 'rgb(" + r + "," + g + "," + b + ")'");
     body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
     donateButton.style.backgroundColor = '';
     donateButton.style.color = '';
@@ -34,10 +34,6 @@ reset = function() {
     unDonateButton.style.color = '';
 }
 
-randomColor = function() {
-
-}
-
 donateButton.onclick = donate;
 unDonateButton.onclick = undonate;
-tracker.onclick = reset;
+tracker.onclick = randomColor;
