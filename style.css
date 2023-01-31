@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
     background-color: rgb(19, 22, 20);
     display: flex;
@@ -7,7 +9,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2 {
+h1 {
+    color: seashell;
+    font-family: 'Permanent Marker', cursive, Arial, Helvetica, sans-serif;
+}
+
+h2 {
     color: seashell;
 }
 
@@ -41,6 +48,7 @@ button {
     max-width: 800px;
     min-width: 125px;
     user-select: none;
+    -webkit-user-select: none;
 }
 
 a {
