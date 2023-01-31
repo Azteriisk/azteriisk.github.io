@@ -19,7 +19,13 @@ undonate = function(){
     donateButton.style.color = '';
     unDonateButton.style.backgroundColor = 'blue';
     unDonateButton.style.color = 'white';
-    tracker.innerHTML = --i;
+    if (i > 0) {
+        tracker.innerHTML = --i;
+    } else {
+        tracker.innerHTML = i ;
+        alert("Don't starve me :(");
+    };
+    
 }
 
 randomColor = function() {
